@@ -1,4 +1,4 @@
-0/*
+/*
  * Copyright 2017 The boardgame.io Authors.
  *
  * Use of this source code is governed by a MIT-style
