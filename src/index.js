@@ -1,4 +1,4 @@
-/*
+0/*
  * Copyright 2017 The boardgame.io Authors.
  *
  * Use of this source code is governed by a MIT-style
@@ -17,7 +17,7 @@ const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
   debug: false,
-  multiplayer: SocketIO({ server: "https://boardgameparty.herokuapp.com/:8000" })
+  multiplayer: SocketIO({ server: `${hostname}:8000` })
 });
 
 class App extends React.Component {
